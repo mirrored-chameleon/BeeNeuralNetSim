@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:BeeNeuralNetSim}",
+            "name": "Debug BeeNeuralNetSim",
+            "target": "BeeNeuralNetSim",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug BeeNeuralNetSim"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:BeeNeuralNetSim}",
+            "name": "Release BeeNeuralNetSim",
+            "target": "BeeNeuralNetSim",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release BeeNeuralNetSim"
+        }
+    ]
+}
