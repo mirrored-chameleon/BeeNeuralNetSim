@@ -14,7 +14,7 @@ let gridValueY = 20
 let learningRate = 0.1
 @MainActor var explorationRate = 0.15
 let maxEpisodes = 80
-let maxStepsPerEpisode = 200
+let maxStepsPerEpisode = 100
 let simulationDelay = 0.2
 
 // Renders frames to the terminal so we can see the simulation happening.
