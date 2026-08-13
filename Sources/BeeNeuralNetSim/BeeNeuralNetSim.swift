@@ -23,7 +23,7 @@ func renderFrame(_ frame: String, foundFlowerAndHive: Bool) {
     if foundFlowerAndHive {
         print("Found flower and hive!!")
     }
-    fflush(stdout)
+    //fflush(stdout)
 }
 
 // Calculates the distance from one point to another on the grid.
