@@ -2,7 +2,7 @@
 FROM swift:latest AS builder
 WORKDIR /app
 COPY . .
-RUN swift build -c release
+RUN swift build -c release --static-swift-stdlib
 
 # Step 2: Use an official image that already has ttyd built-in
 FROM tsl0922/ttyd:latest
