@@ -24,3 +24,4 @@ EXPOSE 8080
 
 # Tell the server to launch ttyd and your real ML app on start
 CMD ["ttyd", "-p", "8080", "./BeeNeuralNetSim"]
+# Force update
