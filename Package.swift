@@ -12,7 +12,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(path: "../../Documents/GitHub/SwiftNN/SwiftNN")
+        .package(url: "https://github.com/mirrored-chameleon/SwiftNN", branch: "main")
     ],
     targets: [
         .executableTarget(
